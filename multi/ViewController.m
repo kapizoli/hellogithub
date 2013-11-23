@@ -17,6 +17,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    worker * w = [[worker alloc] init];
+    [ w  AddObjectToArray: [NSNumber numberWithInt:0]];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

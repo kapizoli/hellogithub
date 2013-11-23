@@ -24,6 +24,7 @@
 		7AC99FAE18409E610085D495 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC99F8618409E610085D495 /* Foundation.framework */; };
 		7AC99FB618409E610085D495 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AC99FB418409E610085D495 /* InfoPlist.strings */; };
 		7AC99FB918409E610085D495 /* multiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC99FB818409E610085D495 /* multiTests.m */; };
+		7AC99FC418409EB20085D495 /* worker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AC99FC318409EB20085D495 /* worker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		7AC99FB518409E610085D495 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7AC99FB718409E610085D495 /* multiTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = multiTests.h; sourceTree = "<group>"; };
 		7AC99FB818409E610085D495 /* multiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = multiTests.m; sourceTree = "<group>"; };
+		7AC99FC218409EB20085D495 /* worker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = worker.h; sourceTree = "<group>"; };
+		7AC99FC318409EB20085D495 /* worker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = worker.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +128,8 @@
 				7AC99F9F18409E610085D495 /* MainStoryboard_iPad.storyboard */,
 				7AC99FA218409E610085D495 /* ViewController.h */,
 				7AC99FA318409E610085D495 /* ViewController.m */,
+				7AC99FC218409EB20085D495 /* worker.h */,
+				7AC99FC318409EB20085D495 /* worker.m */,
 				7AC99F8B18409E610085D495 /* Supporting Files */,
 			);
 			path = multi;
@@ -277,6 +282,7 @@
 				7AC99F9118409E610085D495 /* main.m in Sources */,
 				7AC99F9518409E610085D495 /* AppDelegate.m in Sources */,
 				7AC99FA418409E610085D495 /* ViewController.m in Sources */,
+				7AC99FC418409EB20085D495 /* worker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
